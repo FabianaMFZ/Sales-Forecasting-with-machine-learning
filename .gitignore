@@ -1,0 +1,24 @@
+# Ignorar ambientes virtuais
+.venv/
+venv/
+
+# Ignorar arquivos e pastas de dados (CSV, Excel, etc.)
+data/
+files/
+*.csv
+*.xlsx
+*.xls
+
+# Ignorar checkpoints do Jupyter
+.ipynb_checkpoints/
+
+# Ignorar arquivos de configuração sensíveis
+.env
+.env.*
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+*.log
